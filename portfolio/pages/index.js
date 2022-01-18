@@ -1,11 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import About from '../components/Section/About'
 import Card from '../components/Section/Card'
+import Skills from '../components/Section/Skills'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
 
       <Head>
         <title>Create Next App</title>
@@ -13,21 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="min-h-screen py-10 px-3 ">
+      <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-200">
         <Card/>
+        <About/>
+        <Skills/>
       </div>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-      </main>
       
     </div>
   )
