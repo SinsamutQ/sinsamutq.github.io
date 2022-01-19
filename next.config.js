@@ -2,9 +2,7 @@
 const isProd = process.env.NODE_ENV === "production";
 const path = require('path')
 module.exports = {
-  basePath: '/portfolio-internship',
   // target: 'serverless',
-  assetPrefix: isProd ? "/portfolio-internship/" : "/",
   exportPathMap: () => ({
     "/": {
       page: "/",
@@ -12,7 +10,7 @@ module.exports = {
   }),
   images: {
     loader: 'imgix', 
-    path: isProd ? 'https://sinsamutq.github.io/portfolio-internship':'http://localhost:5000'
+    path: isProd ? 'https://sinsamutq.github.io/':'http://localhost:5000'
   },
   // reactStrictMode: true,
 
