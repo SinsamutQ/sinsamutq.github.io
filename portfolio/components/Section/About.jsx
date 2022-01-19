@@ -6,7 +6,7 @@ const About = () => {
             </p>
             <p className="text-lg sm:text-xl text-center text-gray-600 leading-relaxed mt-4">
                 I am software engineer and studying at university of phayao .  
-                <br/>I'm currently looking for an internship because that I can practice my abilities .
+                <br/>I am currently looking for an internship because to practice my abilities .
             </p>
         </div>
     )
