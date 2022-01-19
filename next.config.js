@@ -2,6 +2,7 @@
 const isProd = process.env.NODE_ENV === "production";
 const path = require('path')
 module.exports = {
+  basePath: '/portfolio-internship',
   // target: 'serverless',
   assetPrefix: isProd ? "/portfolio-internship" : "/",
   exportPathMap: () => ({
