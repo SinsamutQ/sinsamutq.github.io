@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {
   basePath: '/portfolio-internship',
   // target: 'serverless',
-  assetPrefix: isProd ? "/portfolio-internship" : "/",
+  assetPrefix: isProd ? "/portfolio-internship/" : "/",
   exportPathMap: () => ({
     "/": {
       page: "/",
