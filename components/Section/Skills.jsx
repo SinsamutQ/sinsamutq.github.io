@@ -15,7 +15,7 @@ const Skills = () => {
 
         <div className="max-w-4xl mx-auto justify-center pt-4" id="tech">
             
-            <p className="tracking-wide text-2xl text-black text-center sm:text-2xl pt-4 font-bold ">
+            <p className="tracking-wide text-2xl text-black text-center sm:text-2xl pt-4 font-bold">
                 Main Skill
             </p>
 
