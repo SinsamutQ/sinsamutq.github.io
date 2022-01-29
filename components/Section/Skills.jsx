@@ -20,58 +20,62 @@ const Skills = () => {
             </p>
 
             <div className="flex flex-wrap justify-center">
-                <div className="flex flex-col w-40 h-40 p-8 m-1 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-48">
-                    <FaReact color="#2563eb" className="mx-auto text-5xl"/>
-                    <p className="mt-5 sm:text-xl text-white font-semibold text-center">React</p>
-                    <p className="text-xs sm:text-base text-gray-300 pt-2 text-center ">Framwork</p>
+
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-46">
+                    <FaReact color="#2563eb" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-white font-semibold text-center">React</p>
+                    <p className="text-xs sm:text-md text-gray-300 text-center ">Framwork</p>
                 </div>
-                <div className="flex flex-col w-40 h-40 p-8 m-1 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-48">
-                    <img src="/img/nextjs.png" width={32} className="mx-auto rounded-full"/>
-                    <p className="mt-5 sm:text-xl text-white font-semibold text-center">Next JS</p>
-                    <p className="text-xs sm:text-base text-gray-300 pt-2 text-center ">Fontend</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-46">
+                    <img src="/img/nextjs.png" width={42} className="m-auto rounded-full "/>
+                    <p className="mt-1 sm:text-base pt-2 text-white font-semibold text-center">Next JS</p>
+                    <p className="text-xs sm:text-md text-gray-300 text-center ">Fontend</p>
                 </div>
-                <div className="flex flex-col w-40 h-40 p-8 m-1 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-48">
-                    <IoLogoJavascript color="#eab308" className="mx-auto text-5xl"/>
-                    <p className="mt-5 sm:text-xl text-white font-semibold text-center">Javascript</p>
-                    <p className="text-xs sm:text-base text-gray-300 pt-2 text-center">Language</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-46">
+                    <IoLogoJavascript color="#eab308" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-white font-semibold text-center">Javascript</p>
+                    <p className="text-xs sm:text-sm text-gray-300 text-center">Language</p>
                 </div>
-                <div className="flex flex-col w-40 h-40 p-8 m-1 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-48">
-                    <IoLogoNodejs color="#22c55e" className="mx-auto text-5xl"/>
-                    <p className="mt-5 sm:text-xl text-white font-semibold text-center">Node JS</p>
-                    <p className="text-xs sm:text-base text-gray-300 pt-2 text-center">Beckend</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-46">
+                    <IoLogoNodejs color="#22c55e" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-white font-semibold text-center">Node JS</p>
+                    <p className="text-xs sm:text-sm text-gray-300 text-center">Beckend</p>
                 </div>
-                <div className="flex flex-col w-40 h-40 p-8 m-1 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-48">
-                    <DiMongodb color="#22c55e" className="mx-auto text-5xl"/>
-                    <p className="mt-5 sm:text-xl text-white font-semibold text-center">MongoDB</p>
-                    <p className="text-xs sm:text-base text-gray-300 pt-2 text-center">Database</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-46">
+                    <DiMongodb color="#22c55e" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-white font-semibold text-center">MongoDB</p>
+                    <p className="text-xs sm:text-base text-gray-300 text-center">Database</p>
                 </div>
-                <div className="flex flex-col w-40 h-40 p-8 m-1 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-48">
-                    <SiTailwindcss color="#2563eb" className="mx-auto text-5xl"/>
-                    <p className="mt-5 sm:text-xl text-white font-semibold text-center">Tailwind</p>
-                    <p className="text-xs sm:text-base text-gray-300 pt-2 text-center">Css</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-neutral-900 shadow-2xl rounded-xl sm:w-46">
+                    <SiTailwindcss color="#2563eb" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-white font-semibold text-center">Tailwind</p>
+                    <p className="text-xs sm:text-sm text-gray-300 text-center">Css</p>
                 </div>
             
             </div>
 
-            <p className="tracking-wide text-2xl text-black text-center sm:text-2xl pt-4 font-bold">
+            <p className="tracking-wide text-2xl text-black text-center sm:text-2xl pt-10 pb-6 font-bold">
                 Another Tool & Skill
             </p>
+
             <div className="flex flex-wrap justify-center">
-                <div className="flex flex-col w-40 p-8 m-8 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-48">
-                    <BiGitMerge color="black" className="mx-auto text-2xl sm:text-4xl"/>
-                    <p className="mt-5 sm:text-xl font-semibold text-center">Git</p>
-                    <p className="text-xs sm:text-base text-gray-600 pt-2 text-center">push and merge</p>
+
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-46">
+                    <BiGitMerge color="black" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-black font-semibold text-center">Git</p>
+                    <p className="text-xs sm:text-sm text-gray-700 text-center">push and merge</p>
                 </div>
-                <div className="flex flex-col w-40 p-8 m-8 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-48">
-                    <SiGnubash color="black" className="mx-auto text-2xl sm:text-4xl"/>
-                    <p className="mt-5 sm:text-xl font-semibold text-center">Bash</p>
-                    <p className="text-xs sm:text-base text-gray-600 pt-2 text-center">Command</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-468">
+                    <SiGnubash color="black" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-black font-semibold text-center">Bash</p>
+                    <p className="text-xs sm:text-sm text-gray-700 text-center">Command</p>
                 </div>
-                <div className="flex flex-col w-40 p-8 m-8 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-48">
-                    <SiFlutter color="#2196f3" className="mx-auto text-2xl sm:text-4xl"/>
-                    <p className="mt-5 sm:text-xl font-semibold text-center">Flutter</p>
-                    <p className="text-xs sm:text-base text-gray-600 pt-2 text-center">Mobile</p>
+                <div className="flex flex-col w-36 h-36 p-6 my-2 mx-3 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-46">
+                    <SiFlutter color="#2196f3" className="m-auto text-4xl"/>
+                    <p className="mt-1 sm:text-base pt-1 text-black font-semibold text-center">Flutter</p>
+                    <p className="text-xs sm:text-sm text-gray-700 text-center">Mobile</p>
                 </div>
+
             </div>
             
         </div>
