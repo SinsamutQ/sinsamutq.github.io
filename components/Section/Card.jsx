@@ -10,14 +10,14 @@ const Card = () => {
             <div className="felx flex-col justity-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
 
                 <div>
-                    <img src="/img/exploding-head.png" className="w-32 mx-auto shadow-xl rounded-full" alt="profile photo" />
+                    <img src="/img/exploding-head.png" className="w-30 mx-auto shadow-xl rounded-full" alt="profile photo" />
                 </div>
 
                 <div className="font-['SoleiiBold'] text-center mt-5">
                     <p className="text-xl sm:text-2xl text-gray-900">
                         Wasin Kaewplung
                     </p>
-                    <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
+                    <p className="text-lg sm:text-lg text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
                         Web Developer / React
                     </p>
 

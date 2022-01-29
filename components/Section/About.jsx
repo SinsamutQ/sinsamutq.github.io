@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="max-w-4xl py-12 mt-10 mx-auto">
+        <div className="max-w-4xl pt-2 pb-12 mt-10 mx-auto">
             <p className="text-2xl text-black md:text-4xl font-bold text-center">
                 สวัสดีครับ 👋
             </p>

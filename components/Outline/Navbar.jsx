@@ -6,7 +6,7 @@ const Navbar = () => {
 
                 <a href="#" className="flex">
                     <div className="pr-4">
-                        <img src="/img/exploding-head.png" width={40} height={40}/>
+                        <img src="/img/exploding-head.png" width={36} height={36}/>
                     </div>
                     <span className="self-center text-lg font-semibold whitespace-nowrap text-black ">Portfolio</span>
                 </a>
