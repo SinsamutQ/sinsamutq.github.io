@@ -13,7 +13,7 @@ const Card = () => {
                     <img src="/img/exploding-head.png" className="w-32 mx-auto shadow-xl rounded-full" alt="profile photo" />
                 </div>
 
-                <div className="text-center mt-5">
+                <div className="font-['SoleiiBold'] text-center mt-5">
                     <p className="text-xl sm:text-2xl text-gray-900">
                         Wasin Kaewplung
                     </p>
