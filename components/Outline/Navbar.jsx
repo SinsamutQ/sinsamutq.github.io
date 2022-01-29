@@ -1,12 +1,12 @@
 const Navbar = () => {
     return (
 
-        <nav className="bg-white border-gray-200 px-6 sm:px-8 py-4 rounded dark:bg-white sticky top-0 z-auto">
+        <nav className="bg-white border-gray-200 px-6 sm:px-8 pt-3 pb-2 rounded dark:bg-white sticky top-0 z-auto">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
 
                 <a href="#" className="flex">
                     <div className="pr-4">
-                        <img src="/img/exploding-head.png" width={36} height={36}/>
+                        <img src="/img/exploding-head.png" width={24} height={24}/>
                     </div>
                     <span className="self-center text-lg font-semibold whitespace-nowrap text-black ">Portfolio</span>
                 </a>
